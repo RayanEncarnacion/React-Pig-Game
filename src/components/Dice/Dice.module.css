@@ -1,0 +1,19 @@
+.img-container {
+  width: 100vw;
+  text-align: center;
+  height: 4.5em;
+}
+
+img {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 15%;
+  border: 2px solid #555;
+  max-width: 70px;
+}
+
+.img-container h1 {
+  /* text-shadow: 2px 2px rgba(0, 0, 0, 0.9); */
+  color: #333;
+}

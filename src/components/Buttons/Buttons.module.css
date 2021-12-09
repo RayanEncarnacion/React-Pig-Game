@@ -1,0 +1,31 @@
+.buttons-container {
+  width: 100%;
+  padding: 1em 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #eaeeff;
+  gap: 0.5em;
+}
+
+button {
+  max-width: 150px;
+  padding: 0.8em 0;
+  outline: none;
+  border: none;
+  background-color: rgb(12, 72, 110);
+  color: #f3f3f3;
+  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 0.7em;
+}
+button:active {
+  transform: scale(0.95);
+}
+
+button i {
+  margin-right: 5px;
+}
